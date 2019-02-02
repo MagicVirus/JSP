@@ -1,0 +1,2 @@
+"{\"WFLYCTL0080: Failed services\" => {\"jboss.deployment.unit.\\\"ProjetEE-war.war\\\".INSTALL\" => \"WFLYSRV0153: Failed to process phase INSTALL of deployment \\\"ProjetEE-war.war\\\"
+    Caused by: org.jboss.msc.service.DuplicateServiceException: Service jboss.undertow.deployment.default-server.default-host./ProjetEE-war.UndertowDeploymentInfoService is already registered\"}}"
