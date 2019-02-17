@@ -1,0 +1,6 @@
+"{
+    \"WFLYCTL0080: Failed services\" => {\"jboss.deployment.subunit.\\\"ProjetEE.ear\\\".\\\"ProjetEE-war.war\\\".INSTALL\" => \"WFLYSRV0153: Failed to process phase INSTALL of subdeployment \\\"ProjetEE-war.war\\\" of deployment \\\"ProjetEE.ear\\\"
+    Caused by: org.jboss.msc.service.DuplicateServiceException: Service jboss.undertow.deployment.default-server.default-host./ProjetEE-war.UndertowDeploymentInfoService is already registered\"},
+    \"WFLYCTL0412: Required services that are not installed:\" => [\"jboss.deployment.subunit.\\\"ProjetEE.ear\\\".\\\"ProjetEE-war.war\\\".deploymentCompleteService\"],
+    \"WFLYCTL0180: Services with missing/unavailable dependencies\" => [\"jboss.deployment.unit.\\\"ProjetEE.ear\\\".deploymentCompleteService is missing [jboss.deployment.subunit.\\\"ProjetEE.ear\\\".\\\"ProjetEE-war.war\\\".deploymentCompleteService]\"]
+}"

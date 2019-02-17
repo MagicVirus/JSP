@@ -7,6 +7,7 @@ package model;
 
 import javax.ejb.Stateless;
 import javax.ejb.LocalBean;
+import javax.persistence.EntityManager;
 
 /**
  *
@@ -18,4 +19,9 @@ public class EventSessionBean {
 
     // Add business logic below. (Right-click in editor and choose
     // "Insert Code > Add Business Method")
+    private EntityManager em; 
+    
+    public void save(Event e) {
+        em.persist(e);
+    }
 }

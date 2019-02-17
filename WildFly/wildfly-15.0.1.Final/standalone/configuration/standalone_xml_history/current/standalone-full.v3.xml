@@ -160,20 +160,14 @@
                         <password>sa</password>
                     </security>
                 </datasource>
-                <datasource jndi-name="java:/derby" pool-name="derby">
-                    <connection-url>jdbc:derby://localhost:1527/root</connection-url>
-                    <driver-class>org.apache.derby.jdbc.ClientDriver</driver-class>
-                    <driver>derby</driver>
-                    <security>
-                        <user-name>root</user-name>
-                        <password>root</password>
-                    </security>
-                </datasource>
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
                     </driver>
                     <driver name="derby" module="org.apache.derby">
+                        <driver-class>org.apache.derby.jdbc.ClientDriver</driver-class>
+                    </driver>
+                    <driver name="derbies" module="org.apache.derby">
                         <driver-class>org.apache.derby.jdbc.ClientDriver</driver-class>
                     </driver>
                 </drivers>
